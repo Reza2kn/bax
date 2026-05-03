@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js
+.next/
+out/
+next-env.d.ts.bak
+
+# env files (never commit real secrets)
+.env
+.env.local
+.env.*.local
+
+# local db
+var/
+*.sqlite
+*.sqlite-journal
+
+# drizzle migrations are checked in; ignore caches
+db/migrations/.cache/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+
+# build / debug
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.tsbuildinfo
+.next/
+coverage/
